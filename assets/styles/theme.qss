@@ -1,0 +1,98 @@
+/* 现代化主题样式 */
+QMainWindow {
+    background-color: #F8F8F6;
+}
+
+QWidget {
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+    font-size: 13px;
+}
+
+/* 主按钮 */
+QPushButton#primary {
+    background-color: #2B5CE6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+QPushButton#primary:hover {
+    background-color: #1E45C8;
+}
+
+QPushButton#primary:pressed {
+    background-color: #163AA0;
+}
+
+/* 次要按钮 */
+QPushButton#secondary {
+    background-color: white;
+    color: #333;
+    border: 1px solid #D0CFC8;
+    border-radius: 6px;
+    padding: 8px 20px;
+}
+
+QPushButton#secondary:hover {
+    background-color: #F0F0F0;
+}
+
+/* 输入框 */
+QLineEdit, QTextEdit {
+    border: 1px solid #D0CFC8;
+    border-radius: 6px;
+    padding: 6px 10px;
+    background: white;
+    color: #333;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border-color: #2B5CE6;
+}
+
+/* 列表 */
+QListWidget {
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    background: white;
+    color: #333;
+    outline: none;
+}
+
+QListWidget::item {
+    padding: 8px;
+    border-radius: 4px;
+    color: #333;
+}
+
+QListWidget::item:selected {
+    background-color: #E8F0FE;
+    color: #1967D2;
+}
+
+QListWidget::item:hover {
+    background-color: #F5F5F5;
+}
+
+/* 标签 */
+QLabel {
+    color: #333;
+}
+
+/* 分组框 */
+QGroupBox {
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background: white;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 5px;
+}
