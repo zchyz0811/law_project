@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 律师文档填充助手
 
 一个完全离线的Windows桌面应用，帮助律师快速处理合同文档中的重复填写内容。
@@ -98,3 +99,6 @@ pyinstaller --onefile --windowed \
 ## 许可证
 
 MIT License
+=======
+# law_project
+>>>>>>> 1ec45b2e7dfcbb4af6f302a1591048022356efc1
